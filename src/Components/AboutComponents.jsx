@@ -31,7 +31,7 @@ import { SiTailwindcss, SiJquery, SiFirebase } from 'react-icons/si';
        }, {
          label: 'Email', value: 'jahidulislamwebbd@gmail.com'
        }, {
-         label: 'Experience', value: '2+ years'
+         label: 'Experience', value: '3+ years'
        }, {
          label: 'Freelance', value: 'Available'
        }, {
@@ -93,7 +93,7 @@ import { SiTailwindcss, SiJquery, SiFirebase } from 'react-icons/si';
    }, { 
      period: 'Creative It Institute Uttara Dhaka Bangladesh -2024',
      title: 'Node.Js',
-     description: 'Jahidul Islam is currently learning Node.js at Creative IT Institute.'
+     description: 'Jahidul Islam is currently learning Node.js at Creative IT Institute. My skills include Backend Express.js ,Database MongoDB,Mongoose,Postman,API Development,RESTful API,Authentication and Authorization,Middleware,Error Handling,First Steps with Node.js,Node.js Basics,Node.js Modules,Node.js FiLesystem,Node.js HTTP Modele,Node.js Express.js,Node.js Moddules,Node.js NPM,Node.js Modules,Nodee.js'
    }].map((exp, index) => (
      
      <div key={index} className="experience-item mt-12">
@@ -182,5 +182,5 @@ import { SiTailwindcss, SiJquery, SiFirebase } from 'react-icons/si';
  );
  //============= MainComponent part end ===========//
  export default MainComponent;
-
+//  sdfggggggggggggggggggggggggggggsd
 

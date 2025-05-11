@@ -76,8 +76,7 @@ import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icon
         {errors.message && <p className="text-red-500">{errors.message}</p>}
 
         <button type="submit" className="w-36 h-12 bg-gradient-to-r from-[#FF0075] to-[#FC4100] text-white font-bold rounded-lg flex justify-center items-center gap-2 hover:scale-105 transition">
-        {loading ? <ClipLoader size={20} color="#fff" /> : <FaPaperPlane />} Send Message
-        </button>
+        {loading ? <ClipLoader size={20} color="#fff" /> : <FaPaperPlane />} Send Message </button>
       </form>
 
      {/*Present Address start  */}
@@ -85,7 +84,7 @@ import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icon
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6 text-blue-600 text-base sm:text-lg">
       <div className="flex items-center justify-start md:justify-center gap-3 bg-white dark:bg-[#1E1E2E] p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300">
       <FaMapMarkerAlt className="text-xl" />
-      <span><strong>Present Address:</strong> Dhaka, Bangladesh</span>
+      <span><strong>Present Address:</strong> Dhaka, Uttara Azamput, Bangladesh</span>
       </div>
 
       <div className="flex items-center justify-start md:justify-center gap-3 bg-white dark:bg-[#1E1E2E] p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300">

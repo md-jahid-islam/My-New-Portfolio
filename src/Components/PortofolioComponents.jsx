@@ -4,11 +4,7 @@
  //=========== ProjectCard part start ===========//
  const ProjectCard = ({ image, title, category, liveLink, githubLink }) => (
   <div className="relative text-center w-72 transform hover:scale-105 hover:rotate-2 transition-all duration-500 ease-in-out ">
-    <img
-      className="w-full h-52 object-cover rounded-lg shadow-md transition-transform duration-300 transform hover:scale-110 hover:brightness-90"
-      src={image}
-      alt={title}
-    />
+    <img className="w-full h-52 object-cover rounded-lg shadow-md transition-transform duration-300 transform hover:scale-110 hover:brightness-90" src={image} alt={title}/>
     <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white rounded-md">
       <h2 className="text-xl font-bold">{title}</h2>
       <h3 className="text-lg">
@@ -44,11 +40,32 @@
  const Portfolio = () => {
   const projects = [
     {
+      image: "/images/code.png",
+      title: "Code shortener website",
+      category: "React, Typescript, mysql, react-toastify,Tailwind CSS",
+      liveLink: "https://code-shortener-dash.lovable.app/",
+      githubLink: "https://github.com/md-jahid-islam/Filter-website-design-Responsive-.git",
+    },
+      {
+      image: "/images/time.png",
+      title: "Daily Students Study Plan Time management website",
+      category: "html, css, javascript, responsive mobile devices, laptop devices ,desktop device",
+      liveLink: "https://routine-plan.vercel.app/",
+      githubLink: "https://github.com/md-jahid-islam/Routine-Plan-.git",
+    },
+      {
+      image: "/images/html.png",
+      title: "DoctorCare Início Serviços Sobre Depoimentos Study Plan Time management website",
+      category: "html, css, javascript, Tailwind.css, responsive mobile devices laptop devices desktop device",
+      liveLink: "https://html-css-js-crash-course-doctor-care-project-main.vercel.app/#home",
+      githubLink: "https://github.com/md-jahid-islam/html-css-js-crash-course-doctor-care-project-main.git",
+    },
+     {
       image: "/images/filtter.png",
       title: "Filtter website",
       category: "React, React-Redux, React Router DOM, react-toastify, react-icons, Tailwind CSS",
       liveLink: "https://filter-website-design-responsive.vercel.app/",
-      githubLink: "https://github.com/md-jahid-islam/Filter-website-design-Responsive-.git",
+      githubLink: "https://github.com/md-jahid-islam/code-shortener-dash.git",
     },
     {
       image: "/images/orbi.png",
@@ -135,7 +152,7 @@
   return (
     <div className="container mx-auto px-4 py-10">
       <div className="header text-center">
-        <h2 className="text-3xl font-bold text-blue-500 pt-10 underline ">Portfolio</h2>
+        <h2 className="text-3xl font-bold text-blue-500 pt-10 underline ">Portfolio!</h2>
       </div>
 
       <div className="flex flex-wrap justify-center gap-8 mt-10">
@@ -149,3 +166,4 @@
  //======== design part end ===========//
 
  export default Portfolio;
+//  dfahfbajksdbhfjasdhbf

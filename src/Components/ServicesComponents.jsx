@@ -91,7 +91,71 @@ const ServicesComponents = () => {
      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
      imgSrc: "  https://plus.unsplash.com/premium_photo-1721225464880-0f42e06dbe08?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
      details: ["Cross-Platform Apps", "Native Mobile Apps", "App UI/UX Design", "App Integration"]
-   }
+   },
+   {
+     id: 6,
+     title: "Node.js Development",
+     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+     imgSrc: "  https://plus.unsplash.com/premium_photo-1721225464880-0f42e06dbe08?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     details: ["Cross-Platform Apps", "Native Mobile Apps", "App UI/UX Design", "App Integration"]
+   },
+   {
+     id: 6,
+     title: "Backend Express.js Development",
+     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+     imgSrc: "  https://plus.unsplash.com/premium_photo-1721225464880-0f42e06dbe08?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     details: ["Cross-Platform Apps", "Native Mobile Apps", "App UI/UX Design", "App Integration"]
+   },
+   {
+     id: 6,
+     title: "Database MongoDB Development",
+     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+     imgSrc: "  https://plus.unsplash.com/premium_photo-1721225464880-0f42e06dbe08?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     details: ["Cross-Platform Apps", "Native Mobile Apps", "App UI/UX Design", "App Integration"]
+   },
+   {
+     id: 6,
+     title: "Mongoose Development",
+     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+     imgSrc: "  https://plus.unsplash.com/premium_photo-1721225464880-0f42e06dbe08?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     details: ["Cross-Platform Apps", "Native Mobile Apps", "App UI/UX Design", "App Integration"]
+   },
+   {
+     id: 6,
+     title: "Apis Development",
+     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+     imgSrc: "  https://plus.unsplash.com/premium_photo-1721225464880-0f42e06dbe08?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     details: ["Cross-Platform Apps", "Native Mobile Apps", "App UI/UX Design", "App Integration"]
+   },
+   {
+     id: 6,
+     title: "Ejs Development",
+     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+     imgSrc: "  https://plus.unsplash.com/premium_photo-1721225464880-0f42e06dbe08?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     details: ["Cross-Platform Apps", "Native Mobile Apps", "App UI/UX Design", "App Integration"]
+   },
+   {
+     id: 6,
+     title: "Postman Development",
+     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+     imgSrc: "  https://plus.unsplash.com/premium_photo-1721225464880-0f42e06dbe08?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     details: ["Cross-Platform Apps", "Native Mobile Apps", "App UI/UX Design", "App Integration"]
+   },
+   {
+     id: 6,
+     title: "Nodemon Development",
+     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+     imgSrc: "  https://plus.unsplash.com/premium_photo-1721225464880-0f42e06dbe08?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     details: ["Cross-Platform Apps", "Native Mobile Apps", "App UI/UX Design", "App Integration"]
+   },
+   {
+     id: 6,
+     title: " HTTPS Development",
+     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+     imgSrc: "  https://plus.unsplash.com/premium_photo-1721225464880-0f42e06dbe08?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     details: ["Cross-Platform Apps", "Native Mobile Apps", "App UI/UX Design", "App Integration"]
+   },
+   
  ];
 
 //========== allServices part end ========//
@@ -111,13 +175,13 @@ const ServicesComponents = () => {
    <div className="container mx-auto px-4 py-10">
      {/* Header Section */}
      <div className="text-center">
-       <h2 className="text-3xl font-bold dark:text-white mt-11 text-blue-500 "> My Services</h2>
-       <h3 className=" text-2xl font-bold dark:text-white text-blue-500 underline ">What I offer</h3>
+       <h2 className="text-3xl font-bold dark:text-white mt-11 text-blue-500 "> My Services!</h2>
+       <h3 className=" text-2xl font-bold dark:text-white text-blue-500 underline ">What I offer!</h3>
        <h2 className="mt-4 text-lg md:text-2xl font-bold text-blue-500 dark:text-gray-300">
-         Building Digital Products With Better Experience
+        Building Digital Products With Better Experience!
        </h2>
        <p className="mt-3 text-sm md:text-lg text-blue-500 font-bold dark:text-gray-400">
-         Our vision is to be a trailblazing force in the world of web design and development, recognized for  <br /> our unwavering commitment to excellence, integrity, and customer satisfaction.
+         Our vision is to be a trailblazing force in the world of web design and development, recognized for  <br /> our unwavering commitment to excellence, integrity, and customer satisfaction.!
        </p>
      </div>
 
@@ -155,6 +219,6 @@ const ServicesComponents = () => {
      )}
    </div>
  );
-};
-//========== design part end ===========//
-export default ServicesComponents;
+ };
+ //========== design part end ===========//
+ export default ServicesComponents;

@@ -27,7 +27,7 @@
     if (storedTheme === "dark" || (!storedTheme && prefersDark)) {
       setDarkMode(true);
       document.documentElement.classList.add("dark");
-      document.body.style.backgroundColor = "#1E1E2E"; 
+      document.body.style.backgroundColor = "#000"; 
     }
   }, []);
 
@@ -36,14 +36,14 @@
     const newMode = !darkMode;
     setDarkMode(newMode);
     document.documentElement.classList.toggle("dark", newMode);
-    document.body.style.backgroundColor = newMode ? "#1E1E2E" : "#F8F9FA";
+    document.body.style.backgroundColor = newMode ? "#000" : "#f5f1ff";
     localStorage.setItem("theme", newMode ? "dark" : "light");
   };
 
   return (
     <>
       <nav className={`fixed w-full top-0 z-50 transition-colors duration-300 shadow-md py-4
-        ${darkMode ? "bg-[#1E1E2E] text-[#A6E3E9]" : "bg-[#F8F9FA] text-[#222222]"}`}>
+        ${darkMode ? "bg-[#000] text-[#A6E3E9]" : "bg-[#F8F9FA] text-[#000000]"}`}>
         <div className="container mx-auto flex justify-between items-center px-4 md:px-6">
          <NavLink to="/home" className="inline-flex items-center"><img src="/images/profile.png" alt="Portfolio Logo" className="w-10 h-10 rounded-full hover:scale-110 transition-transform duration-300 mr-3"/>
          <span className="font-bold text-2xl"> My || Portfolio!</span>
@@ -52,13 +52,13 @@
           {/* Mobile Menu */}
           <ul className={`flex flex-col md:flex-row md:gap-6 absolute md:static left-0 top-full w-full md:w-auto 
             font-bold md:items-center transition-all duration-300 ease-in-out transform
-            ${darkMode ? "bg-[#1E1E2E] text-[#A6E3E9]" : "bg-[#F8F9FA] text-[#222222]"}
+            ${darkMode ? "bg-[#000000] text-[#A6E3E9]" : "bg-[#F8F9FA] text-[#000000]"}
             ${isOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible md:opacity-100 md:visible"}`}>
               
             {pages.map(({ path, name, icon }, index) => (
               <li key={index} className="relative group text-center md:text-left py-2 md:py-0">
                 <NavLink to={path} className={({ isActive }) => `
-                  flex items-center text-lg ${isActive ? "text-[#36C2CE]" : darkMode ? "text-[#A6E3E9]" : "text-[#222222]"} 
+                  flex items-center text-lg ${isActive ? "text-[#36C2CE]" : darkMode ? "text-[#A6E3E9]" : "text-[#000000]"} 
                   hover:text-[#36C2CE] transition-colors duration-300`} onClick={() => setIsOpen(false)}>
                   {icon} {name}
                 </NavLink>

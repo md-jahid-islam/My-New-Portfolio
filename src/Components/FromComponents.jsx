@@ -66,7 +66,7 @@ import { motion, AnimatePresence } from 'framer-motion';
         )}
       </AnimatePresence>
       <div>
-        <span className=' text-center text-red-500'> visit now!! </span>
+        <span className=' text-center text-[#FF0075] '> visit now!! </span>
       </div>
       <motion.button
         whileTap={{ scale: 0.9 }} onClick={() => setIsOpen(!isOpen)} className={`flex items-center justify-center w-14 h-14 rounded-full shadow-xl ${ isOpen ? 'bg-gray-700' : 'bg-gradient-to-r from-blue-500 to-green-500'

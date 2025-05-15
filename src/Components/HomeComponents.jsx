@@ -99,10 +99,8 @@ import { IoLogoLinkedin } from 'react-icons/io';
 
           {/* Resume Download */}
           <div className="mt-6">
-          <a href="/images/Jahid-Resume.pdf" download="Jahidul_Islam_Resume.pdf" className="w-[200px] h-[50px] bg-gradient-to-r from-[#FF0075] to-[#FC4100] hover:from-[#FC4100] hover:to-[#FF0075] rounded-lg flex justify-center items-center text-white font-bold transition-transform hover:scale-110 hover:rotate-1 hover:shadow-lg"> Download Resume
-          </a>
+          <a href="/images/Jahid-Resume.pdf" download="Jahidul_Islam_Resume.pdf" className="w-[200px] h-[50px] bg-gradient-to-r from-[#FF0075] to-[#FC4100] hover:from-[#FC4100] hover:to-[#FF0075] rounded-lg flex justify-center items-center text-white font-bold transition-transform hover:scale-110 hover:rotate-1 hover:shadow-lg"> Download Resume!</a>
           </div>   
-          
         </div>
       </div>
     </div>    

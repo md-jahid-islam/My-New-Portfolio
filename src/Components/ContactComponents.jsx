@@ -62,7 +62,7 @@ import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icon
     <>
     <section>
     <div className="container mx-auto px-4 sm:px-6 lg:px-16 text-center mt-20 relative">
-      <h2 className="text-3xl font-bold text-blue-500 underline">Contact Me</h2>
+      <h2 className="text-3xl font-bold text-blue-500 underline">Contact Me!</h2>
       <p className="mt-2 text-blue-500 text-4xl md:text-5xl">Let’s Start A New Project</p>
 
        <form onSubmit={handleSubmit} className="flex flex-col items-center space-y-5 mt-8 max-w-lg mx-auto">

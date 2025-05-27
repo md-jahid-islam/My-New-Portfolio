@@ -50,7 +50,7 @@ import { RiTelegram2Fill } from 'react-icons/ri';
     },
       {
       icon: <FaPhone className="text-2xl" />,
-      label: 'Phones',
+      label: 'Phone',
       url:'tel:+8801540587085',
       color: 'bg-[#49e670] hover:bg-[#03E78B]',
     },
@@ -74,7 +74,7 @@ import { RiTelegram2Fill } from 'react-icons/ri';
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.1 }}>
-                <a href={action.url} target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center w-12 h-12 rounded-full shadow-lg ${action.color} text-white transition-all hover:shadow-xl hover:scale-110`} aria-label={action.label} title={action.label} > {action.icon}
+                <a href={action.url} target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center w-12 h-12 rounded-full shadow-lg ${action.color} text-white transition-all hover:shadow-xl hover:scale-110`} aria-label={action.label} title={action.label}> {action.icon}
                 </a>
               </motion.div>
             ))}

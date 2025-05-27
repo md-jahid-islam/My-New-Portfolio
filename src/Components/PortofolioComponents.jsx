@@ -1,6 +1,6 @@
- import React from 'react';
  import { Link } from 'react-router-dom';
  import Typewriter from 'typewriter-effect';
+ 
  //=========== ProjectCard part start ===========//
  const ProjectCard = ({ image, title, category, liveLink, githubLink }) => (
   <div className="relative text-center w-72 transform hover:scale-105 hover:rotate-2 transition-all duration-500 ease-in-out ">
@@ -45,6 +45,34 @@
       category: "React, Typescript, mysql, react-toastify,Tailwind CSS",
       liveLink: "https://code-shortener-dash.lovable.app/",
       githubLink: "https://github.com/md-jahid-islam/Filter-website-design-Responsive-.git",
+    },
+      {
+      image: "/images/time.png",
+      title: "Daily Students Study Plan Time management website",
+      category: "html, css, javascript, responsive mobile devices, laptop devices ,desktop device",
+      liveLink: "https://routine-plan.vercel.app/",
+      githubLink: "https://github.com/md-jahid-islam/Routine-Plan-.git",
+    },
+      {
+      image: "/images/time.png",
+      title: "Daily Students Study Plan Time management website",
+      category: "html, css, javascript, responsive mobile devices, laptop devices ,desktop device",
+      liveLink: "https://routine-plan.vercel.app/",
+      githubLink: "https://github.com/md-jahid-islam/Routine-Plan-.git",
+    },
+      {
+      image: "/images/time.png",
+      title: "Daily Students Study Plan Time management website",
+      category: "html, css, javascript, responsive mobile devices, laptop devices ,desktop device",
+      liveLink: "https://routine-plan.vercel.app/",
+      githubLink: "https://github.com/md-jahid-islam/Routine-Plan-.git",
+    },
+      {
+      image: "/images/time.png",
+      title: "Daily Students Study Plan Time management website",
+      category: "html, css, javascript, responsive mobile devices, laptop devices ,desktop device",
+      liveLink: "https://routine-plan.vercel.app/",
+      githubLink: "https://github.com/md-jahid-islam/Routine-Plan-.git",
     },
       {
       image: "/images/time.png",

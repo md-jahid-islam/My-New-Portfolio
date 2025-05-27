@@ -119,7 +119,7 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
  const SkillSection = () => (
  <div className="skill-section container mt-16 px-4 sm:px-6 lg:px-16  p-8 rounded-lg shadow-lg">
    <div className="flex justify-center items-center relative mb-4">
-     <h2 className="relative text-2xl font-bold text-blue-500 text-center sm:text-left underline "> My Coding Skills Fornt end with react.js || and Node.js Backend Express.js Database MongoBD!</h2>
+     <h2 className="relative text-2xl font-bold text-blue-500 text-center sm:text-left underline "> My Coding Skills Fornt end with react.js || and Node.js Backend <br /> <p className=' flex justify-center items-center'>Express.js Database MongoBD!</p></h2>
      <h3 className="absolute sm:w-[200px] pt-10"></h3>
    </div>
    <div className="divider mt-[100px] mb-8"></div>

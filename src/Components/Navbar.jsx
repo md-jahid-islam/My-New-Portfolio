@@ -36,7 +36,7 @@
     const newMode = !darkMode;
     setDarkMode(newMode);
     document.documentElement.classList.toggle("dark", newMode);
-    document.body.style.backgroundColor = newMode ? "#000" : "#f5f1ff";
+    document.body.style.backgroundColor = newMode ? "#000" : "#fff";
     localStorage.setItem("theme", newMode ? "dark" : "light");
   };
 

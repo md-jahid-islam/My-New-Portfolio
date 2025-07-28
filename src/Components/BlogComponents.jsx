@@ -15,7 +15,7 @@ import 'aos/dist/aos.css';
      <div className="container px-4 md:px-0">
        {/* Header Section */}
        <div className="text-center">
-         <h2 className="text-3xl font-bold text-blue-500b  mb-2 underline mt-5 text-blue-500">Blogs!</h2>
+         <h2 className="text-3xl font-bold text-[#b8aaaa] mb-2 underline mt-5">Blogs!</h2>
          <div className=" bg-blue-500 mx-auto animate-underlineGlow"></div>
        </div>
 

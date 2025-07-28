@@ -4,7 +4,7 @@
  const ProjectCard = ({ image, title, category, liveLink, githubLink }) => (
   <div className="relative text-center w-72 transform hover:scale-105 hover:rotate-2 transition-all duration-500 ease-in-out ">
     <img className="w-full h-52 object-cover rounded-lg shadow-md transition-transform duration-300 transform hover:scale-110 hover:brightness-90" src={image} alt={title}/>
-    <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white rounded-md">
+    <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-[#b8aaaa] rounded-md">
       <h2 className="text-xl font-bold">{title}</h2>
       <h3 className="text-lg">
         {/*Typewriter part start */}
@@ -151,7 +151,7 @@
   return (
     <div className="container mx-auto px-4 py-10">
       <div className="header text-center">
-        <h2 className="text-3xl font-bold text-blue-500 pt-10 underline ">Portfolio!</h2>
+        <h2 className="text-3xl font-bold text-[#b8aaaa] pt-10 underline ">Portfolio!</h2>
       </div>
 
       <div className="flex flex-wrap justify-center gap-8 mt-10">
@@ -165,4 +165,3 @@
  //======== design part end ===========//
 
  export default Portfolio;
-//  dfahfbajksdbhfjasdhbf

@@ -75,7 +75,7 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
      description: 'Jahidul Islam completed his Secondary School Certificate (SSC) in (Commerce) at Hazrat Shahjala (Ra.) High School, Baniachong, Habiganj, in 2021.'
    }].map((edu, index) => (
      <div key={index} className="education-item mt-12">
-       <div className="text-[#b8aaaa] py-2 px-4 bg-[#96d3f3] text-xl rounded-md ">{edu.year}</div>
+       <div className="text-[#fff] py-2 px-4 bg-[#868181] hover:bg-[#272626] text-xl rounded-md ">{edu.year}</div>
        <h3 className=" title font-bold text-sm sm:text-base lg:mt-0  mt-2 text-[#b8aaaa]">{edu.title}</h3>
        <p className="description font-bold text-sm sm:text-base lg:mt-0  mt-2 text-[#b8aaaa]">{edu.description}</p>
      </div>
@@ -88,7 +88,7 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
  const ExperienceSection = () => (
  <div className="experience-section container mt-[20px] px-4 sm:px-6 lg:px-16 bg-gradient-to-r text-[#b8aaaa] p-8 rounded-lg shadow-lg">
    <h2 className="text-2xl font-bold text-[#b8aaaa] text-center sm:text-left underline ">My technology Experience Background!</h2>
-   <div className="divider bg-[#96d3f3] mt-2 mb-4"></div>
+   <div className="divider bg-[#868181] mt-2 mb-4"></div>
    
    {[{
      period: 'Creative It Institute Uttara Dhaka Bangladesh -2024!',
@@ -101,7 +101,7 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
    }].map((exp, index) => (
      
      <div key={index} className="experience-item mt-12">
-       <div className="period text-[#b8aaaa] py-2 px-4 bg-[#96d3f3] text-xl rounded-md ">{exp.period}</div>
+       <div className="period text-[#fff] py-2 px-4 bg-[#868181] hover:bg-[#272626] text-xl rounded-md ">{exp.period}</div>
        
        <h3 className="title font-bold mt-5 sm:text-base lg:mt-0  text-[#b8aaaa] ">{exp.title}</h3>
        
@@ -179,22 +179,22 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
      }].map((skill, index) => (
        <div key={index} className="skill-item text-center transform transition duration-300 hover:scale-110">
          {/* Proficiency Circle with CountUp */}
-         <div className="relative w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-full border-4 border-[rgb(32,36,255)] flex justify-center items-center overflow-hidden transform transition-all duration-500 hover:bg-[rgb(32,54,255)] hover:text-white">
+         <div className="relative w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-full border-4 border-[#b8aaaa] flex justify-center items-center overflow-hidden transform transition-all duration-500 hover:bg-[rgb(32,54,255)] hover:text-white">
            {/* Gradient Background */}
-           <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-500 opacity-30"></div>
+           <div className="absolute inset-0 bg-gradient-to-r from-purple-400 hover:bg-[#272626] opacity-30"></div>
            {/* Proficiency Percentage */}
-           <CountUp end={skill.proficiency} suffix="%" duration={2} className="text-xl sm:text-2xl lg:text-3xl font-bold text-[rgb(32,54,255)] z-10" />
+           <CountUp end={skill.proficiency} suffix="%" duration={2} className="text-xl sm:text-2xl lg:text-3xl font-bold border-[#b8aaaa] hover:bg-[#272626] z-10" />
          </div>
 
          {/* Icon Inside Circle with Hover Effects */}
          <div className="icon absolute inset-0 flex justify-center items-center transform transition-all duration-500">
-           <div className=" p-4 rounded-full border-4 border-[rgb(32,255,255)] flex justify-center items-center transform transition-all duration-300 hover:bg-[hsl(293,100%,56%)] hover:text-white hover:scale-110">
-             {skill.icon}
+           <div className=" p-4 rounded-full border-4 border-[#b8aaaa] flex justify-center items-center transform transition-all duration-300 hover:bg-[#b8aaaa] hover:text-white hover:scale-110">
+            {skill.icon}
            </div>
          </div>
 
          {/* Skill Name */}
-         <p className="skill-name mt-2 text-sm sm:text-base text-blue-500">{skill.name}</p>
+         <p className="skill-name mt-2 text-sm sm:text-base text-[#b8aaaa] ">{skill.name}</p>
        </div>
      ))}
    </div>

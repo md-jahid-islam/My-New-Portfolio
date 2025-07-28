@@ -13,20 +13,19 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
  <section className="about-section container mx-auto mt-5 px-4 sm:px-6 md:px-8 lg:px-16  p-8 rounded-lg shadow-lg">
    {/* Section Title */}
    <div className="relative text-center sm:text-left pt-28 flex justify-center items-center flex-wrap ">
-     <h2 className="text-3xl font-bold underline text-blue-500 ">About Me!</h2>
+     <h2 className="text-3xl font-bold underline text-[#b8aaaa]">About Me!</h2>
      <div className="absolute  sm:w-32 mx-auto sm:mx-0 "></div>
    </div>
    {/* About Details */}
    <div className="mt-8 flex flex-col lg:flex-row justify-between items-start lg:items-center">
-     <p className="text-[hsl(189,100%,56%)] leading-relaxed text-center font-bold lg:text-left lg:p-10 max-w-full sm:max-w-xl lg:max-w-3xl border-e-4 border-x-blue-300 ">
+     <p className="text-[#b8aaaa] leading-relaxed text-center font-bold lg:text-left lg:p-10 max-w-full sm:max-w-xl lg:max-w-3xl border-e-4 border-x-blue-100 ">
      Hi I'm Jahidul Islam is a passionate Frontend Developer specializing in React. He has over two years of experience building responsive and dynamic web applications using modern tools like React, Redux, and Tailwind CSS. With a keen eye for design, Jahidul also excels in integrating UI/UX principles, leveraging Figma for prototyping. He is proficient in technologies like JavaScript, Bootstrap, and Firebase. Currently, he is enhancing his backend skills by learning Node.js. Jahidul is committed to delivering high-quality, user-centric solutions. He is available for freelance opportunities and thrives on continuous learning and growth!.
      </p>
     
-
    {/* About Text Typewriter end */}
 
      {/* Personal Details start */}
-     <div className="text-sm sm:text-base mt-10 lg:mt-0 lg:ml-10 text-[hsl(189,100%,56%)] font-bold ">
+     <div className="text-sm sm:text-base mt-10 lg:mt-0 lg:ml-10 text-[#b8aaaa] font-bold ">
        {[{
          label: 'Name', value: 'Jahidul Islam'
        }, {
@@ -59,8 +58,8 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
  //========== EducationSection part start ========//
  const EducationSection = () => (
  <div className="education-section container px-4 sm:px-6 lg:px-16 bg-gradient-to-l  p-8 rounded-lg shadow-lg font-semibold">
-   <h2 className="text-2xl font-bold text-[hsl(189,100%,56%)] pt-10 text-center sm:text-left underline ">My Academy Education Background!</h2>
-   <div className="divider mt-2 mb-4 text-[hsl(189,100%,56%)] font-bold "></div>
+   <h2 className="text-2xl font-bold text-[#b8aaaa] pt-10 text-center sm:text-left underline ">My Academy Education Background!</h2>
+   <div className="divider mt-2 mb-4 text-[#b8aaaa] font-bold "></div>
 
    {[{
      year: 'Degree ongoing (BSS-Department) Bachelor of Social Science-2025!',
@@ -76,9 +75,9 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
      description: 'Jahidul Islam completed his Secondary School Certificate (SSC) in (Commerce) at Hazrat Shahjala (Ra.) High School, Baniachong, Habiganj, in 2021.'
    }].map((edu, index) => (
      <div key={index} className="education-item mt-12">
-       <div className="text-[hsl(189,100%,56%)] py-2 px-4 bg-[#008DDA] text-xl rounded-md ">{edu.year}</div>
-       <h3 className=" title font-bold text-sm sm:text-base lg:mt-0  mt-2 text-[hsl(189,100%,56%)]">{edu.title}</h3>
-       <p className="description font-bold text-sm sm:text-base lg:mt-0  mt-2 text-[hsl(189,100%,56%)]">{edu.description}</p>
+       <div className="text-[#b8aaaa] py-2 px-4 bg-[#96d3f3] text-xl rounded-md ">{edu.year}</div>
+       <h3 className=" title font-bold text-sm sm:text-base lg:mt-0  mt-2 text-[#b8aaaa]">{edu.title}</h3>
+       <p className="description font-bold text-sm sm:text-base lg:mt-0  mt-2 text-[#b8aaaa]">{edu.description}</p>
      </div>
    ))}
  </div>
@@ -87,9 +86,9 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
 
  //========== ExperienceSection part start ========//
  const ExperienceSection = () => (
- <div className="experience-section container mt-[20px] px-4 sm:px-6 lg:px-16 bg-gradient-to-r text-[hsl(189,100%,56%)] p-8 rounded-lg shadow-lg">
-   <h2 className="text-2xl font-bold text-[hsl(189,100%,56%)] text-center sm:text-left underline ">My technology Experience Background!</h2>
-   <div className="divider bg-[#e2ecf6] mt-2 mb-4"></div>
+ <div className="experience-section container mt-[20px] px-4 sm:px-6 lg:px-16 bg-gradient-to-r text-[#b8aaaa] p-8 rounded-lg shadow-lg">
+   <h2 className="text-2xl font-bold text-[#b8aaaa] text-center sm:text-left underline ">My technology Experience Background!</h2>
+   <div className="divider bg-[#96d3f3] mt-2 mb-4"></div>
    
    {[{
      period: 'Creative It Institute Uttara Dhaka Bangladesh -2024!',
@@ -102,11 +101,11 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
    }].map((exp, index) => (
      
      <div key={index} className="experience-item mt-12">
-       <div className="period text-[hsl(189,100%,56%)] py-2 px-4 bg-[#008DDA] text-xl rounded-md ">{exp.period}</div>
+       <div className="period text-[#b8aaaa] py-2 px-4 bg-[#96d3f3] text-xl rounded-md ">{exp.period}</div>
        
-       <h3 className="title font-bold mt-5 sm:text-base lg:mt-0  text-[hsl(189,100%,56%)] ">{exp.title}</h3>
+       <h3 className="title font-bold mt-5 sm:text-base lg:mt-0  text-[#b8aaaa] ">{exp.title}</h3>
        
-       <p className="description  mt-2 text-[hsl(189,100%,56%)] sm:text-base lg:mt-0 ">{exp.description}</p>
+       <p className="description  mt-2 text-[#b8aaaa] sm:text-base lg:mt-0 ">{exp.description}</p>
       
      </div>
    ))}
@@ -119,7 +118,7 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
  const SkillSection = () => (
  <div className="skill-section container mt-16 px-4 sm:px-6 lg:px-16  p-8 rounded-lg shadow-lg">
    <div className="flex justify-center items-center relative mb-4">
-     <h2 className="relative text-2xl font-bold text-blue-500 text-center sm:text-left underline "> My Coding Skills Fornt end with react.js || and Node.js Backend <br /> <p className=' flex justify-center items-center'>Express.js Database MongoBD!</p></h2>
+     <h2 className="relative text-2xl font-bold text-[#b8aaaa] text-center sm:text-left underline "> My Coding Skills Fornt end with react.js || and Node.js Backend <br /> <p className=' flex justify-center items-center'>Express.js Database MongoBD!</p></h2>
      <h3 className="absolute sm:w-[200px] pt-10"></h3>
    </div>
    <div className="divider mt-[100px] mb-8"></div>

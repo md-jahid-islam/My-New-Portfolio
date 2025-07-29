@@ -1,8 +1,9 @@
  import { 
  MoonIcon, SunIcon, HomeIcon, UserIcon, FolderIcon, 
- DocumentTextIcon, CogIcon, PhoneIcon
+ DocumentTextIcon, PhoneIcon
  } from "@heroicons/react/24/solid";
  import React, { useState, useEffect } from "react";
+import { GiSkills } from "react-icons/gi";
  import { NavLink} from "react-router-dom";
 
  //=========== All Page Paths ==========//
@@ -11,7 +12,7 @@
   { path: "/about", name: "About", icon: <UserIcon className="w-5 h-5 inline mr-2" /> },
   { path: "/portfolio", name: "Portfolio", icon: <FolderIcon className="w-5 h-5 inline mr-2" /> },
   { path: "/blog", name: "Blog", icon: <DocumentTextIcon className="w-5 h-5 inline mr-2" /> },
-  { path: "/services", name: "Services", icon: <CogIcon className="w-5 h-5 inline mr-2" /> },
+  { path: "/services", name: "Skills", icon: <GiSkills className="w-5 h-5 inline mr-2" /> },
   { path: "/contact", name: "Contact", icon: <PhoneIcon className="w-5 h-5 inline mr-2" /> }
  ];
 

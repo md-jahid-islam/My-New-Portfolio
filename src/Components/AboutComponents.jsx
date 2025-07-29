@@ -17,8 +17,8 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
      <div className="absolute  sm:w-32 mx-auto sm:mx-0 "></div>
    </div>
    {/* About Details */}
-   <div className="mt-8 flex flex-col lg:flex-row justify-between items-start lg:items-center">
-     <p className="text-[#b8aaaa] leading-relaxed text-center font-bold lg:text-left lg:p-10 max-w-full sm:max-w-xl lg:max-w-3xl border-e-4 border-x-blue-100 ">
+   <div className=" mt-8 flex flex-col lg:flex-row justify-between items-start lg:items-center">
+     <p className=" text-[#b8aaaa] leading-relaxed text-center font-bold lg:text-left lg:p-10 max-w-full sm:max-w-xl lg:max-w-3xl border-e-4 border-x-blue-100 ">
      Hi I'm Jahidul Islam is a passionate Frontend Developer specializing in React. He has over two years of experience building responsive and dynamic web applications using modern tools like React, Redux, and Tailwind CSS. With a keen eye for design, Jahidul also excels in integrating UI/UX principles, leveraging Figma for prototyping. He is proficient in technologies like JavaScript, Bootstrap, and Firebase. Currently, he is enhancing his backend skills by learning Node.js. Jahidul is committed to delivering high-quality, user-centric solutions. He is available for freelance opportunities and thrives on continuous learning and growth!.
      </p>
     

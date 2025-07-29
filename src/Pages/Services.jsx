@@ -3,11 +3,10 @@ import ServicesComponents from '../Components/ServicesComponents'
 
 const Services = () => {
   return (
-    <>
-    <ServicesComponents/>
-    
-    
-    </>
+   <>
+   <ServicesComponents/>
+   
+   </>
   )
 }
 

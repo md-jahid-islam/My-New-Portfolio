@@ -5,8 +5,8 @@
  import Contact from './Pages/Contact';
  import Blog from './Pages/Blog';
  import LayoutOne from './Layout/LayoutOne';
- import Services from './Pages/Services';
  import Portfolio from './Pages/Portfolio';
+import Services from './Pages/Services';
  //========= function app arranged Router structure =========//
  function App() {
   const mainroute = createBrowserRouter(

@@ -75,29 +75,29 @@ import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icon
         <textarea name="message" placeholder="Write your message..." value={formData.message} onChange={handleChange} className="w-full p-4 border-2 border-gray-300 rounded-lg h-32 focus:border-blue-500" />
         {errors.message && <p className="text-red-500">{errors.message}</p>}
 
-        <button type="submit" className="w-36 h-12 bg-gradient-to-r from-[#FF0075] to-[#FC4100] text-white font-bold rounded-lg flex justify-center items-center gap-2 hover:scale-105 transition">
+        <button type="submit" className="w-36 h-12 bg-gradient-to-r text-[#b8aaaa] dark:bg-[#1E1E2E] font-bold rounded-lg flex justify-center items-center gap-2 hover:scale-105 transition">
         {loading ? <ClipLoader size={20} color="#fff" /> : <FaPaperPlane />} Send Message </button>
       </form>
 
      {/*Present Address start  */}
      <section>
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6 text-blue-600 text-base sm:text-lg">
-      <div className="flex items-center justify-start md:justify-center gap-3 bg-white dark:bg-[#1E1E2E] p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6 text-[#b8aaaa] text-base sm:text-lg">
+      <div className="flex items-center justify-start md:justify-center gap-3 text-[#b8aaaa] dark:bg-[#1E1E2E] p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300">
       <FaMapMarkerAlt className="text-xl" />
       <span><strong>Present Address:</strong> Dhaka, Uttara Azamput, Bangladesh</span>
       </div>
 
-      <div className="flex items-center justify-start md:justify-center gap-3 bg-white dark:bg-[#1E1E2E] p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300">
+      <div className="flex items-center justify-start md:justify-center gap-3 text-[#b8aaaa] dark:bg-[#1E1E2E] p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300">
       <FaMapMarkerAlt className="text-xl" />
       <span><strong>Permanent Address:</strong> Habiganj, Bangladesh</span>
       </div>
 
-      <div className="flex items-center justify-start md:justify-center gap-3 bg-white dark:bg-[#1E1E2E] p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300">
+      <div className="flex items-center justify-start md:justify-center gap-3 text-[#b8aaaa] dark:bg-[#1E1E2E] p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300">
       <FaPhoneAlt className="text-xl" />
       <span><strong>Phone:</strong> +880 1540 587085</span>
       </div>
 
-      <div className="flex items-center justify-start md:justify-center gap-3 bg-white dark:bg-[#1E1E2E] p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300">
+      <div className="flex items-center justify-start md:justify-center gap-3 text-[#b8aaaa] dark:bg-[#1E1E2E] p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300">
       <FaEnvelope className="text-xl" />
       <span><strong>Email:</strong> jahidulislamwebbd@gmail.com </span>
       </div>

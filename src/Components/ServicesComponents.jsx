@@ -160,12 +160,12 @@ const allServices = [
    <div className="container mx-auto px-4 py-10">
      {/* Header Section */}
      <div className="text-center">
-       <h2 className="text-3xl font-bold mt-11 text-[#868181]"> My Services!</h2>
-       <h3 className=" text-2xl font-bold text-[#868181] underline ">What I offer!</h3>
-       <h2 className="mt-4 text-lg md:text-2xl font-bold text-[#868181] dark:text-gray-300">
+       <h2 className="text-3xl font-bold mt-11 text-gray-800 dark:text-gray-300 "> My Services!</h2>
+       <h3 className=" text-2xl font-bold text-gray-800 dark:text-gray-300 underline ">What I offer!</h3>
+       <h2 className="mt-4 text-lg md:text-2xl font-bold text-gray-800 dark:text-gray-300 ">
         Building Digital Products With Better Experience!
        </h2>
-       <p className="mt-3 text-sm md:text-lg text-[#868181] font-bold">
+       <p className="mt-3 text-sm md:text-lg text-gray-800 dark:text-gray-300 font-bold">
         Our vision is to be a trailblazing force in the world of web design and development, recognized for  <br /> our unwavering commitment to excellence, integrity, and customer satisfaction.!
        </p>
      </div>
@@ -175,20 +175,20 @@ const allServices = [
        {allServices.slice(0, servicesToShow).map((service) => (
          <div key={service.id} className="relative text-center p-4 rounded-lg shadow-md transition-all transform hover:scale-105 hover:shadow-lg duration-300 ease-in-out">
            <img className="w-20 h-20 mx-auto rounded-lg mt-5 hover:scale-110 transition duration-300" src={service.imgSrc} alt={service.title} />
-           <h2 className="text-lg md:text-xl font-bold text-[#868181]">{service.title}</h2>
+           <h2 className="text-lg md:text-xl font-bold text-gray-800 dark:text-gray-300">{service.title}</h2>
 
-           <button onClick={() => toggleExpand(service.id)} className="block mt-4 text-lg text-[#868181] transform hover:scale-110 transition duration-300">
+           <button onClick={() => toggleExpand(service.id)} className="block mt-4 text-lg text-gray-800 dark:text-gray-300 transform hover:scale-110 transition duration-300">
             <TbArrowLeftFromArc className={`inline-block text-[20px] ${expanded === service.id ? "rotate-180" : ""} transition-transform duration-300`} />
            </button>
 
            {/* Expanded Description */}
            <div className={`overflow-hidden transition-all duration-500 ${expanded === service.id ? "max-h-80 opacity-100 mt-3" : "max-h-0 opacity-0"}`}>
-             <ul className="list-disc list-inside text-sm md:text-base text-[#868181]">
+             <ul className="list-disc list-inside text-sm md:text-base text-gray-800 dark:text-gray-300">
                {service.details.map((detail, index) => (
                  <li key={index}>{detail}</li>
                ))}
              </ul>
-             <Link to="#" className="mt-3 inline-block text-sm font-semibold text-[#868181] hover:text-[#008DDA] transition duration-300">Read More</Link>
+             <Link to="#" className="mt-3 inline-block text-sm font-semibold text-gray-800 dark:text-gray-300 hover:text-[#008DDA] transition duration-300">Read More</Link>
            </div>
          </div>
        ))}
@@ -197,7 +197,7 @@ const allServices = [
      {/* Load More Button */}
      {servicesToShow < allServices.length && (
        <div className="text-center mt-8">
-         <button onClick={loadMoreServices} className="text-[#868181] font-semibold hover:text-[#008DDA] transition duration-300">
+         <button onClick={loadMoreServices} className="text-gray-800 dark:text-gray-300 font-semibold hover:text-[#008DDA] transition duration-300">
            Load More Services
          </button>
        </div>

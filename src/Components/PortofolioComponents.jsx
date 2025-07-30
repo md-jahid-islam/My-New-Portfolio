@@ -24,10 +24,10 @@
     {/*View Live & GitHub part start*/}
       <div className="flex justify-center gap-4 mt-4">
         <Link to={liveLink} target="_blank" className="px-4 py-2 bg-[#FF204E] text-white rounded-full hover:bg-[#008DDA] transition duration-300">
-          View Live
+        View Live
         </Link>
         <Link to={githubLink} target="_blank" className="px-4 py-2 bg-gray-800 text-white rounded-full hover:bg-[#008DDA] transition duration-300">
-          GitHub
+        GitHub
         </Link>
       </div>
    {/*View Live & GitHub part end*/}
@@ -151,7 +151,7 @@
   return (
     <div className="container mx-auto px-4 py-10">
       <div className="header text-center">
-        <h2 className="text-3xl font-bold text-[#b8aaaa] pt-10 underline ">Portfolio!</h2>
+        <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-300 pt-10 underline ">Portfolio!</h2>
       </div>
 
       <div className="flex flex-wrap justify-center gap-8 mt-10">

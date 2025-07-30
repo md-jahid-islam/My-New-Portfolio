@@ -82,7 +82,7 @@ import { RiTelegram2Fill } from 'react-icons/ri';
         )}
       </AnimatePresence>
       <div>
-        <span className=' text-center text-[#b8aaaa] '> visit now!! </span>
+        <span className=' text-center text-[#424242] dark:text-gray-300'> visit now!! </span>
       </div>
       <motion.button whileTap={{ scale: 0.9 }} onClick={() => setIsOpen(!isOpen)} className={`flex items-center justify-center w-14 h-14 rounded-full shadow-xl ${ isOpen ? 'bg-gray-700' : 'bg-gradient-to-r bg-[#b8aaaa] hover:bg-blue-400'
         } text-white transition-all`} aria-label={isOpen ? 'Close social menu' : 'Open social menu'}>

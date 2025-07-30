@@ -10,22 +10,22 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
 
  //========= About Section part start ========//
  const AboutSection = () => (
- <section className="about-section container mx-auto mt-5 px-4 sm:px-6 md:px-8 lg:px-16  p-8 rounded-lg shadow-lg">
+ <section className="about-section container mx-auto mt-5 px-4 sm:px-6 md:px-8 lg:px-16 p-8 rounded-lg shadow-lg">
    {/* Section Title */}
    <div className="relative text-center sm:text-left pt-28 flex justify-center items-center flex-wrap ">
-     <h2 className="text-3xl font-bold underline text-[#b8aaaa]">About Me!</h2>
-     <div className="absolute  sm:w-32 mx-auto sm:mx-0 "></div>
+     <h2 className="text-3xl font-bold underline text-gray-800 dark:text-gray-300">About Me!</h2>
+     <div className="absolute sm:w-32 mx-auto sm:mx-0 "></div>
    </div>
    {/* About Details */}
    <div className=" mt-8 flex flex-col lg:flex-row justify-between items-start lg:items-center">
-     <p className=" text-[#b8aaaa] leading-relaxed text-center font-bold lg:text-left lg:p-10 max-w-full sm:max-w-xl lg:max-w-3xl border-e-4 border-x-blue-100 ">
+     <p className=" text-gray-800 dark:text-gray-300 leading-relaxed text-center font-bold lg:text-left lg:p-10 max-w-full sm:max-w-xl lg:max-w-3xl border-e-4 border-x-blue-100 ">
      Hi I'm Jahidul Islam is a passionate Frontend Developer specializing in React. He has over two years of experience building responsive and dynamic web applications using modern tools like React, Redux, and Tailwind CSS. With a keen eye for design, Jahidul also excels in integrating UI/UX principles, leveraging Figma for prototyping. He is proficient in technologies like JavaScript, Bootstrap, and Firebase. Currently, he is enhancing his backend skills by learning Node.js. Jahidul is committed to delivering high-quality, user-centric solutions. He is available for freelance opportunities and thrives on continuous learning and growth!.
      </p>
     
    {/* About Text Typewriter end */}
 
      {/* Personal Details start */}
-     <div className="text-sm sm:text-base mt-10 lg:mt-0 lg:ml-10 text-[#b8aaaa] font-bold ">
+     <div className="text-sm sm:text-base mt-10 lg:mt-0 lg:ml-10 text-gray-800 dark:text-gray-300 font-bold ">
        {[{
          label: 'Name', value: 'Jahidul Islam'
        }, {
@@ -58,26 +58,26 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
  //========== EducationSection part start ========//
  const EducationSection = () => (
  <div className="education-section container px-4 sm:px-6 lg:px-16 bg-gradient-to-l  p-8 rounded-lg shadow-lg font-semibold">
-   <h2 className="text-2xl font-bold text-[#b8aaaa] pt-10 text-center sm:text-left underline ">My Academy Education Background!</h2>
-   <div className="divider mt-2 mb-4 text-[#b8aaaa] font-bold "></div>
+   <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-300 pt-10 text-center sm:text-left underline ">My Academy Education Background!</h2>
+   <div className="divider mt-2 mb-4 text-gray-800 dark:text-gray-300 font-bold "></div>
 
    {[{
      year: 'Degree ongoing (BSS-Department) Bachelor of Social Science-2025!',
-     title: 'Brindhabon Govt College Habiganj!',
+     title:'Brindhabon Govt College Habiganj!',
      description: 'Jahidul Islam is a student at Habiganj Govt College, pursuing a Bachelors degree in Social Science with a focus on (Humanities). He began his studies in 2025.'
    }, {
-     year: 'Higher Secondary Certificate. -2023!',
-     title: 'Kabir College Academy, Habiganj,',
+     year:'Higher Secondary Certificate. -2023!',
+     title:'Kabir College Academy, Habiganj,',
      description: 'Jahidul Islam completed his Higher Secondary Certificate (HSC) in (Humanities) at Habiganj Kabir College Academy in 2023.'
    }, {
-     year: 'Secondary School Certificate -2021!',
-     title: 'Hazrat Shahjala (R.) High School Baniachong , Habiganj!',
+     year:'Secondary School Certificate -2021!',
+     title:'Hazrat Shahjala (R.) High School Baniachong , Habiganj!',
      description: 'Jahidul Islam completed his Secondary School Certificate (SSC) in (Commerce) at Hazrat Shahjala (Ra.) High School, Baniachong, Habiganj, in 2021.'
    }].map((edu, index) => (
      <div key={index} className="education-item mt-12">
-       <div className="text-[#fff] py-2 px-4 bg-[#868181] hover:bg-[#272626] text-xl rounded-md ">{edu.year}</div>
-       <h3 className=" title font-bold text-sm sm:text-base lg:mt-0  mt-2 text-[#b8aaaa]">{edu.title}</h3>
-       <p className="description font-bold text-sm sm:text-base lg:mt-0  mt-2 text-[#b8aaaa]">{edu.description}</p>
+       <div className=" py-2 px-4  text-gray-800 dark:text-gray-300 font-semibold shadow-md hover:scale-105 transition text-xl rounded-md ">{edu.year}</div>
+       <h3 className=" title font-bold text-sm sm:text-base lg:mt-0  mt-2 text-gray-800 dark:text-gray-300">{edu.title}</h3>
+       <p className="description font-bold text-sm sm:text-base lg:mt-0  mt-2 text-gray-800 dark:text-gray-300">{edu.description}</p>
      </div>
    ))}
  </div>
@@ -86,27 +86,24 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
 
  //========== ExperienceSection part start ========//
  const ExperienceSection = () => (
- <div className="experience-section container mt-[20px] px-4 sm:px-6 lg:px-16 bg-gradient-to-r text-[#b8aaaa] p-8 rounded-lg shadow-lg">
-   <h2 className="text-2xl font-bold text-[#b8aaaa] text-center sm:text-left underline ">My technology Experience Background!</h2>
-   <div className="divider bg-[#868181] mt-2 mb-4"></div>
+ <div className="experience-section container mt-[20px] px-4 sm:px-6 lg:px-16 bg-gradient-to-r text-gray-800 dark:text-gray-300 p-8 rounded-lg shadow-lg">
+   <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-300 text-center sm:text-left underline ">My technology Experience Background!</h2>
+   <div className="divider text-gray-800 dark:text-gray-300] mt-2 mb-4"></div>
    
    {[{
-     period: 'Creative It Institute Uttara Dhaka Bangladesh -2024!',
-     title: 'Frontend web Development, with React Development!',
+     period:'Creative It Institute Uttara Dhaka Bangladesh -2024!',
+     title:'Frontend web Development, with React Development!',
      description: 'As a Frontend Developer specializing in React, Jahidul Islam has experience with various web technologies including Html,Css, Javascript, React, Redux, Tailwind CSS, Bootstrap, Frameworks,Firebase,Firebase Authentication  is the process of verifying a users identity or the authenticity of a document It s used to protect systems, data, and networks from attacks. How it works Identification The user establishes their identity, usually with a username Authorization The system verifies that the user has permission to access the system Credentials The user provides an agreed-upon piece of information, such as a password, card, fingerprint, or voice recognition Why it important Authentication protects systems, data, and networks from attacks Its used when a server needs to know whos accessing its information or site Its used when a client needs to know that the server is who it claims to be Examples Multi-factor authentication  Requires users to provide two forms of verification before gaining access Single sign-on (SSO) Streamlines the verification process so that users only have to provide credentials at one access point!! '
    }, { 
-     period: 'Creative It Institute Uttara Dhaka Bangladesh -2025!',
-     title: 'Node.Js Backend Developments Express.js Database MongoDB!',
+     period:'Creative It Institute Uttara Dhaka Bangladesh -2025!',
+     title:'Node.Js Backend Developments Express.js Database MongoDB!',
      description: 'Jahidul Islam is currently learning Node.js at Creative IT Institute. My skills include Backend Express.js ,Database MongoDB,Mongoose,Postman,API Development,RESTful API,Authentication and Authorization,Middleware,Error Handling,First Steps with Node.js,Node.js Basics,Node.js Modules,Node.js FiLesystem,Node.js HTTP Modele,Node.js Express.js,Node.js Moddules,Node.js NPM,Node.js Modules,Nodee.js!'
    }].map((exp, index) => (
      
      <div key={index} className="experience-item mt-12">
-       <div className="period text-[#fff] py-2 px-4 bg-[#868181] hover:bg-[#272626] text-xl rounded-md ">{exp.period}</div>
-       
-       <h3 className="title font-bold mt-5 sm:text-base lg:mt-0  text-[#b8aaaa] ">{exp.title}</h3>
-       
-       <p className="description  mt-2 text-[#b8aaaa] sm:text-base lg:mt-0 ">{exp.description}</p>
-      
+       <div className="period text-gray-800 dark:text-gray-300 text-xl rounded-md ">{exp.period}</div>   
+       <h3 className="title font-bold mt-5 sm:text-base lg:mt-0  text-gray-800 dark:text-gray-300 ">{exp.title}</h3>     
+       <p className="description  mt-2 text-gray-800 dark:text-gray-300 sm:text-base lg:mt-0 ">{exp.description}</p>     
      </div>
    ))}
    
@@ -118,7 +115,7 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
  const SkillSection = () => (
  <div className="skill-section container mt-16 px-4 sm:px-6 lg:px-16  p-8 rounded-lg shadow-lg">
    <div className="flex justify-center items-center relative mb-4">
-     <h2 className="relative text-2xl font-bold text-[#b8aaaa] text-center sm:text-left underline "> My Coding Skills Fornt end with react.js || and Node.js Backend <br /> <p className=' flex justify-center items-center'>Express.js Database MongoBD!</p></h2>
+     <h2 className="relative text-2xl font-bold text-gray-800 dark:text-gray-300 text-center sm:text-left underline "> My Coding Skills Fornt end with react.js || and Node.js Backend <br /> <p className=' flex justify-center items-center'>Express.js Database MongoBD!</p></h2>
      <h3 className="absolute sm:w-[200px] pt-10"></h3>
    </div>
    <div className="divider mt-[100px] mb-8"></div>
@@ -188,13 +185,13 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
 
          {/* Icon Inside Circle with Hover Effects */}
          <div className="icon absolute inset-0 flex justify-center items-center transform transition-all duration-500">
-           <div className=" p-4 rounded-full border-4 border-[#b8aaaa] flex justify-center items-center transform transition-all duration-300 hover:bg-[#b8aaaa] hover:text-white hover:scale-110">
+           <div className=" p-4 rounded-full border-4 text-gray-800 flex justify-center items-center transform transition-all duration-300 hover:bg-[#b8aaaa] hover:text-white hover:scale-110">
             {skill.icon}
            </div>
          </div>
 
          {/* Skill Name */}
-         <p className="skill-name mt-2 text-sm sm:text-base text-[#b8aaaa] ">{skill.name}</p>
+         <p className="skill-name mt-2 text-sm sm:text-base text-gray-800 dark:text-gray-300 ">{skill.name}</p>
        </div>
      ))}
    </div>

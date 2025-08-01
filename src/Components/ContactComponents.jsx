@@ -73,15 +73,12 @@ import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icon
           onSubmit={handleSubmit} 
           className=" space-y-5 mt-8 max-w-lg mx-auto ">
           
-          <p className="text-gray-800 dark:text-gray-300" >Full name:</p>
           <input type="text"name="name" placeholder="Enter Your Name!" value={formData.name} onChange={handleChange} className="w-full p-4 border text-gray-800 dark:text-gray-300 font-semibold rounded-lg shadow-md hover:scale-105 transition"/>
           {errors.name && <p className="text-red-500">{errors.name}</p>}
         
-          <p className="text-gray-800 dark:text-gray-300" >Email:</p>
           <input type="email" name="email" placeholder="Enter Your Email!" value={formData.email} onChange={handleChange} className="w-full p-4 border text-gray-800 dark:text-gray-300 font-semibold rounded-lg shadow-md hover:scale-105 transition"/>
           {errors.email && <p className="text-red-500">{errors.email}</p>}
           
-          <p className="text-gray-800 dark:text-gray-300" >Message:</p>
           <textarea name="message" placeholder="Write your message...!" value={formData.message} onChange={handleChange} className="w-full p-4 border text-gray-800 dark:text-gray-300 font-semibold rounded-lg shadow-md hover:scale-105 transition"/>
           {errors.message && <p className="text-red-500">{errors.message}</p>}
 

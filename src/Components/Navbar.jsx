@@ -70,12 +70,12 @@ import { GiSkills } from "react-icons/gi";
 
           {/* Theme & Mobile Toggle */}
           <div className="flex items-center space-x-4">
-            <button className="text-gray-800 dark:text-white bg-[hsl(189,100%,56%)] rounded-full transition-opacity" onClick={toggleTheme} aria-label="Toggle theme">
+            <button className="text-gray-800 dark:text-white rounded-full transition-opacity" onClick={toggleTheme} aria-label="Toggle theme">
             {darkMode ? <SunIcon className="w-6 h-6" /> : <MoonIcon className="w-6 h-6" />}
             </button>
 
             {/* Mobile Menu Button */}
-            <button className="md:hidden flex items-center text-gray-800 dark:text-white bg-red-500 rounded-full transition-opacity hover:text-[#36C2CE] focus:outline-none" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle navigation menu">
+            <button className="md:hidden flex items-center text-gray-800 dark:text-white rounded-full transition-opacity hover:text-[#36C2CE] focus:outline-none" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle navigation menu">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
             </svg>
@@ -87,4 +87,4 @@ import { GiSkills } from "react-icons/gi";
   );
  };
  export default Navbar;
-  // rtghdfhhdfghdfg
+ // fgsdgjknsdfkjngsdjk

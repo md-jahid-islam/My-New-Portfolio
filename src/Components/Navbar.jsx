@@ -87,4 +87,3 @@ import { GiSkills } from "react-icons/gi";
   );
  };
  export default Navbar;
- // fgsdgjknsdfkjngsdjk

@@ -39,19 +39,18 @@ import { IoLogoLinkedin } from 'react-icons/io';
           <div className="text-lg md:text-xl  text-gray-900 dark:text-gray-300">
             <Typewriter
               options={{
-                strings: ['Front-End', 'Developer', 'with React'],
+                strings: ['Front-End', 'Developer', 'with React', 'Developer', 'full stack', 'Developer', 'with Node.js'],
                 autoStart: true,
                 loop: true,
                 delay: 75,
               }}/>
           </div>
-
           <div>
-          <p className=" text-gray-900 dark:text-gray-300 text-base md:text-lg font-medium max-w-md mx-auto md:mx-0">
+          <p className=" text-gray-900  dark:text-gray-300 text-base md:text-lg font-medium max-w-md mx-auto md:mx-0">
           Hi, I'm Jahidul Islam, a passionate front-end developer specializing in dynamic and responsive web applications. Explore my portfolio to see my contributions to the tech community.
           </p>
           </div>
-     
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-4">
             <Link to="/about">
             <button className="px-6 py-3 text-gray-900 dark:text-gray-300 font-semibold rounded-lg shadow-md hover:scale-105 transition"> View Work
@@ -60,7 +59,7 @@ import { IoLogoLinkedin } from 'react-icons/io';
             <Link to="/contact">
             <button className="px-6 py-3 text-gray-900 dark:text-gray-300 font-semibold rounded-lg shadow-md hover:scale-105 transition"> Contact Me
             </button>
-            </Link>
+            </Link> 
             </div>
           <div>
           <h2 className="text-md md:text-lg font-semibold mt-6  text-gray-900 dark:text-gray-300 "> Trusted by World Leading Brands <br /> Portfolio!

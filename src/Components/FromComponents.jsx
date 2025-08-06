@@ -46,7 +46,7 @@ import { RiTelegram2Fill } from 'react-icons/ri';
       icon: <RiTelegram2Fill className="text-2xl" />,
       label: 'Telegram',
       url: 'https://t.me/Jahidul235',
-      color: 'bg-[#0088cc] hover:bg-[#64b5ef]',
+      color: 'bg-[#272727] hover:bg-[#032D3C]',
     },
       {
       icon: <FaPhone className="text-2xl" />,
@@ -82,9 +82,9 @@ import { RiTelegram2Fill } from 'react-icons/ri';
         )}
       </AnimatePresence>
       <div>
-        <span className=' text-center text-[#424242] dark:text-gray-300'> visit now!! </span>
+        <span className=' text-center text-gray-900 dark:text-gray-300'> visit now!! </span>
       </div>
-      <motion.button whileTap={{ scale: 0.9 }} onClick={() => setIsOpen(!isOpen)} className={`flex items-center justify-center w-14 h-14 rounded-full shadow-xl ${ isOpen ? 'bg-gray-700' : 'bg-gradient-to-r bg-[#b8aaaa] hover:bg-blue-400'
+      <motion.button whileTap={{ scale: 0.9 }} onClick={() => setIsOpen(!isOpen)} className={`flex items-center justify-center w-14 h-14 rounded-full shadow-xl ${ isOpen ? 'bg-gray-700' : 'bg-gradient-to-r bg-[#032D3C] hover:bg-blue-400'
         } text-white transition-all`} aria-label={isOpen ? 'Close social menu' : 'Open social menu'}>
         {isOpen ? (
         <FaTimes className="text-xl" />

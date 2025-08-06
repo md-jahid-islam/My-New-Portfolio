@@ -3,7 +3,7 @@
  DocumentTextIcon, PhoneIcon
  } from "@heroicons/react/24/solid";
  import React, { useState, useEffect } from "react";
-import { GiSkills } from "react-icons/gi";
+ import { GiSkills } from "react-icons/gi";
  import { NavLink} from "react-router-dom";
 
  //=========== All Page Paths ==========//
@@ -43,7 +43,7 @@ import { GiSkills } from "react-icons/gi";
 
   return (
     <>
-      <nav className={`fixed w-full top-0 z-50 transition-colors duration-300 shadow-md py-4
+      <nav className={`fixed w-full top-0 z-50 transition-colors duration-300 shadow-md py-4 
         ${darkMode ? "bg-[#000] text-[#A6E3E9]" : "bg-[#F8F9FA] text-[#000000]"}`}>
         <div className="container mx-auto flex justify-between items-center px-4 md:px-6">
          <NavLink to="/home" className="inline-flex items-center"><img src="/images/profile.png" alt="Portfolio Logo" className="w-10 h-10 rounded-full hover:scale-110 transition-transform duration-300 mr-3"/>
@@ -87,3 +87,5 @@ import { GiSkills } from "react-icons/gi";
   );
  };
  export default Navbar;
+ //============   End of Navbar.jsx ============//
+

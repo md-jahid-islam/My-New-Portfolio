@@ -45,12 +45,26 @@
       liveLink: "https://code-shortener-dash.lovable.app/",
       githubLink: "https://github.com/md-jahid-islam/Filter-website-design-Responsive-.git",
     },
-      {
+    {
       image: "/images/time.png",
       title: "Daily Students Study Plan Time management website",
       category: "html, css, javascript, responsive mobile devices, laptop devices ,desktop device",
       liveLink: "https://routine-plan.vercel.app/",
       githubLink: "https://github.com/md-jahid-islam/Routine-Plan-.git",
+    },
+    {
+      image: "/images/orbi.png",
+      title: "Orbi Project E-Shopping",
+      category: "React incorporating React Paginate, React Redux, React Scripts, Redux Persist, React Router DOM, React Slick, Slick Carousel, Tailwind Scrollbar, Responsive, and Web Vitals.",
+      liveLink: "https://orebi-showp-website-e-commerce.vercel.app/",
+      githubLink: "https://github.com/md-jahid-islam/OREBI-E-COMMERCE-WEBSITE.git",
+    },
+     {
+      image: "/images/mixedit.png",
+      title: "Mixedit-UP",
+      category: "React.js React Router dom , Responsive Tailwind.css",
+      liveLink: "https://mixedit-up-sepia.vercel.app/",
+      githubLink: "https://github.com/md-jahid-islam/Mixedit-UP.git",
     },
       {
       image: "/images/html.png",
@@ -59,19 +73,13 @@
       liveLink: "https://html-css-js-crash-course-doctor-care-project-main.vercel.app/#home",
       githubLink: "https://github.com/md-jahid-islam/html-css-js-crash-course-doctor-care-project-main.git",
     },
+    
      {
       image: "/images/filtter.png",
       title: "Filtter website",
       category: "React, React-Redux, React Router DOM, react-toastify, react-icons, Tailwind CSS",
       liveLink: "https://filter-website-design-responsive.vercel.app/",
       githubLink: "https://github.com/md-jahid-islam/code-shortener-dash.git",
-    },
-    {
-      image: "/images/orbi.png",
-      title: "Orbi Project E-Shopping",
-      category: "React incorporating React Paginate, React Redux, React Scripts, Redux Persist, React Router DOM, React Slick, Slick Carousel, Tailwind Scrollbar, Responsive, and Web Vitals.",
-      liveLink: "https://orebi-showp-website-e-commerce.vercel.app/",
-      githubLink: "https://github.com/md-jahid-islam/OREBI-E-COMMERCE-WEBSITE.git",
     },
     {
       image: "/images/filltervercel.png",
@@ -108,13 +116,7 @@
       liveLink: "https://car-rental-website-design.vercel.app/",
       githubLink: "https://github.com/md-jahid-islam/Car-Rental-website-design.git",
     },
-    {
-      image: "/images/mixedit.png",
-      title: "Mixedit-UP",
-      category: "React.js React Router dom , Responsive Tailwind.css",
-      liveLink: "https://mixedit-up-sepia.vercel.app/",
-      githubLink: "https://github.com/md-jahid-islam/Mixedit-UP.git",
-    },
+   
     {
       image: "/images/traveling.png",
       title: "Traveling",
@@ -130,20 +132,13 @@
       githubLink: "https://github.com/md-jahid-islam/Dashboard-.git",
     },
     {
-      image: "/images/stremvib.png",
-      title: "Stremvib",
-      category: " @reduxjs/toolkit axios react dom react-router-dom react-icons react-redux react-slick redux-persist reselect slick-carousel styled-components",
-      liveLink: "https://stream-vibe-seven-eta.vercel.app/",
-      githubLink: "https://github.com/md-jahid-islam/Stream-Vibe.git",
-    },
-    {
       image: "/images/Eshop.png",
       title: "News Pro",
       category: "aos react-icons react-dom react-router-dom react-slick slick-carousel ",
       liveLink: "https://e-commerce-shop-five-zeta.vercel.app/",
       githubLink: "https://github.com/md-jahid-islam/E-commerce-shop.git",
     },
-    
+  
   ];
  //======== Portfolio projects added part end =======//
  

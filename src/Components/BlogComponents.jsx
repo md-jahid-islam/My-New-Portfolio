@@ -82,6 +82,6 @@ import 'aos/dist/aos.css';
    </div>
  );
  };
- //========== design part end =======//
 
+ //========== design part end =======//
  export default BlogComponents;

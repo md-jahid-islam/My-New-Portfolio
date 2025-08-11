@@ -4,7 +4,6 @@ import BlogComponents from '../Components/BlogComponents'
 const Blog = () => {
   return (
     <>
-    
     <BlogComponents/>
     
     </>

@@ -3,7 +3,7 @@ import { FaWhatsapp, FaFacebookMessenger, FaComment, FaTimes, FaPhone} from 'rea
 import { motion, AnimatePresence } from 'framer-motion';
 import { RiTelegram2Fill } from 'react-icons/ri';
 
- // ============== From Components ============= //
+ // ============== From Components start ============= //
  const FromComponents = () => {
   const [isOpen, setIsOpen] = useState(false);
   const fabRef = useRef(null);
@@ -95,7 +95,8 @@ import { RiTelegram2Fill } from 'react-icons/ri';
     </div>
     </section>
     </>
-    //============ design end ============//
   );
  };
+
+ //============ From Components end ============//
  export default FromComponents;

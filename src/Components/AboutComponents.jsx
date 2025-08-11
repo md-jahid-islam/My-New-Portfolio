@@ -207,5 +207,6 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
    <SkillSection />
  </div>
  );
+ 
  //============= MainComponent part end ===========//
  export default MainComponent;

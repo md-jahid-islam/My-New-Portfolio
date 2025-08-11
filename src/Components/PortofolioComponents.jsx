@@ -158,5 +158,5 @@
   );
  };
 
- //======== design part end ===========//
+ //======== Portfolio end ===========//
  export default Portfolio;

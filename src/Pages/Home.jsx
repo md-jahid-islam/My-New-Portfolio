@@ -1,12 +1,12 @@
 import React from 'react'
 import HomeComponents from '../Components/HomeComponents'
 
-const Home = () => {
+ const Home = () => {
   return (
     <>
     <HomeComponents/>  
     </>
   )
-}
+ }
 
-export default Home
+ export default Home

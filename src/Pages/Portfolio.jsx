@@ -1,12 +1,12 @@
 import React from 'react'
 import PortfolioComponents from '../Components/PortofolioComponents'
 
-const Portfolio = () => {
+ const Portfolio = () => {
   return (
     <>
     <PortfolioComponents/>
     </>
   )
-}
+ }
 
-export default Portfolio
+ export default Portfolio

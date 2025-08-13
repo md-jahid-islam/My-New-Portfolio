@@ -1,13 +1,12 @@
 import React from 'react'
 import BlogComponents from '../Components/BlogComponents'
 
-const Blog = () => {
+ const Blog = () => {
   return (
     <>
-    <BlogComponents/>
-    
+    <BlogComponents/>  
     </>
   )
-}
+ }
 
-export default Blog;
+ export default Blog;

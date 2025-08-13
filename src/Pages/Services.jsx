@@ -1,12 +1,12 @@
 import React from 'react'
 import ServicesComponents from '../Components/ServicesComponents'
 
-const Services = () => {
+ const Services = () => {
   return (
    <>
    <ServicesComponents/>
    </>
   )
-}
+ }
 
-export default Services
+ export default Services

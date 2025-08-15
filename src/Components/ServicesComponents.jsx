@@ -184,7 +184,7 @@ import { Link } from "react-router-dom";
            <div className={`overflow-hidden transition-all duration-500 ${expanded === service.id ? "max-h-80 opacity-100 mt-3" : "max-h-0 opacity-0"}`}>
              <ul className="list-disc list-inside text-sm md:text-base text-gray-900 dark:text-gray-300">
                {service.details.map((detail, index) => (
-                 <li key={index}>{detail}</li>
+                <li key={index}>{detail}</li>
                ))}
              </ul>
              <Link to="#" className="mt-3 inline-block text-sm font-semibold text-gray-900 dark:text-gray-300 hover:text-[#008DDA] transition duration-300">Read More</Link>
@@ -197,7 +197,7 @@ import { Link } from "react-router-dom";
      {servicesToShow < allServices.length && (
        <div className="text-center mt-8">
          <button onClick={loadMoreServices} className="text-gray-900 dark:text-gray-300 font-semibold hover:text-[#008DDA] transition duration-300">
-           Load More Services
+          Load More Services
          </button>
        </div>
      )}
@@ -207,4 +207,3 @@ import { Link } from "react-router-dom";
 
  //========== Services Components end ===========//
  export default ServicesComponents;
- //  gasdhfgjhsdbfbbnxczghadmnjhmndfashhd

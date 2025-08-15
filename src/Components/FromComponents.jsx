@@ -61,13 +61,13 @@ import { RiTelegram2Fill } from 'react-icons/ri';
     return (
     <>
     <section>
-    <div ref={fabRef} className="fixed bottom-6 right-6 z-50">
+    <div ref={fabRef} className="fixed bottom-6 right-6 z-50 flex flex-col items-center space-y-3">
       <AnimatePresence>
         {isOpen && (
           <motion.div initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 20 }}
-          transition={{ type: 'spring', damping: 25 }} className="flex flex-col items-end gap-3 mb-3">
+          transition={{ type: 'spring', damping: 25 }} className="flex flex-col items-end gap-3 mb-3 ">
             {actions.map((action, index) => (
               <motion.div
               key={action.label}

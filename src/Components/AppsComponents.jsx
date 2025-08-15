@@ -67,7 +67,7 @@ import { motion, AnimatePresence } from 'framer-motion';
                   <div className="px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 cursor-pointer" onClick={() => copyToClipboard(method.number, method.copyText)}>
                   {method.number}
                   </div>
-                  <button className="p-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300" onClick={() => copyToClipboard(method.number, method.copyText)} title="Copy">
+                  <button className="p-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300" onClick={() => copyToClipboard(method.number, method.copyText)} title="Copy!">
                 <FaCopy className="text-sm" />
                 </button>
                 </div>

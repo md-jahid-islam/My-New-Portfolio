@@ -82,8 +82,8 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
    ))}
  </div>
  );
- //========== EducationSection part end ========//
 
+ //========== EducationSection part end ========//
  //========== ExperienceSection part start ========//
  const ExperienceSection = () => (
  <div className="experience-section container mt-[20px] px-4 sm:px-6 lg:px-16 bg-gradient-to-r text-gray-900 dark:text-gray-300 p-8 rounded-lg shadow-lg">
@@ -109,8 +109,8 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
    
  </div>
  );
- //========== ExperienceSection part end ========//
 
+ //========== ExperienceSection part end ========//
  //============= SkillSection part start ==========//
  const SkillSection = () => (
  <div className="skill-section container mt-16 px-4 sm:px-6 lg:px-16  p-8 rounded-lg shadow-lg">
@@ -197,6 +197,7 @@ import { TbCrystalBall, TbPhysotherapist } from 'react-icons/tb';
    </div>
  </div>
  );
+ 
  //============= SkillSection part end ==========//
  //============= MainComponent part start ===========//
  const MainComponent = () => (

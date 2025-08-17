@@ -4,10 +4,12 @@ import Typewriter from 'typewriter-effect';
 import { FaFacebook, FaGithub } from 'react-icons/fa';
 import { IoLogoLinkedin } from 'react-icons/io';
 
+ // ========== Home Components start ========== //
  const HomeComponents = () => {
   const [darkMode, setDarkMode] = useState(false);
 
-  useEffect(() => {
+  // ========== useEffect useState ============ //
+   useEffect(() => {
     const storedTheme = localStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
@@ -16,7 +18,8 @@ import { IoLogoLinkedin } from 'react-icons/io';
     }
   }, []);
 
-  const toggleTheme = () => {
+   // ========== Theme Toggle ============ //
+   const toggleTheme = () => {
     const newMode = !darkMode;
     setDarkMode(newMode);
     document.documentElement.classList.toggle('dark', newMode);

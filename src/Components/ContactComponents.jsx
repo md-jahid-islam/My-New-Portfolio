@@ -4,12 +4,14 @@ import "react-toastify/dist/ReactToastify.css";
 import { ClipLoader } from "react-spinners";
 import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
+ // ========== Contact Components start ========== //
  const ContactComponents = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [messages, setMessages] = useState([]);
 
+  // ========== validate Form start ============ //
   const validateForm = () => {
     const newErrors = {};
     if (!formData.name.trim()) {
@@ -30,11 +32,13 @@ import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icon
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
-
+  // ========== validate Form end ============ //
+  // ========== Handle Input Change ============ //
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // ========= handle Submit start ========== //
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (validateForm()) {
@@ -56,8 +60,9 @@ import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icon
         setLoading(false);
       }
     }
-  };
-
+  }; 
+  
+  // ========= handle Submit end ========== //
   return (
     <>
       <section className="px-4 sm:px-6 lg:px-16 mt-20 text-center ">

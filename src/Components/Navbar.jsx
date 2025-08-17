@@ -16,12 +16,13 @@
   { path: "/contact", name: "Contact", icon: <PhoneIcon className="w-5 h-5 inline mr-2" /> }
  ];
 
- const Navbar = () => {
+  // ======= Navbar useState start ========== //
+  const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
 
-  //=========== Theme Setup ==========//
-  useEffect(() => {
+   //=========== Theme Setup ==========//
+   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
@@ -32,8 +33,8 @@
     }
   }, []);
 
-  //=========== Toggle Theme ==========//
-  const toggleTheme = () => {
+ //=========== Toggle Theme ==========//
+   const toggleTheme = () => {
     const newMode = !darkMode;
     setDarkMode(newMode);
     document.documentElement.classList.toggle("dark", newMode);

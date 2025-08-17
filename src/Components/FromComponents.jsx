@@ -29,7 +29,8 @@ import { RiTelegram2Fill } from 'react-icons/ri';
     }
   }, [isOpen]);
 
-  const actions = [
+   // ============ Action buttons start ============ //
+   const actions = [
     {
       icon: <FaWhatsapp className="text-2xl" />,
       label: 'WhatsApp',
@@ -57,6 +58,7 @@ import { RiTelegram2Fill } from 'react-icons/ri';
 
     ];
 
+    // ============ Action buttons end ============ //
     //============ design part ============//
     return (
     <>

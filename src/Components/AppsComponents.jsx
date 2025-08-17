@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { FaPhone, FaComment, FaTimes, FaMoneyBillWave, FaCopy } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
+ // ======== Floating Action Button ============ //
  const AppsComponents = () => {
   const [isOpen, setIsOpen] = useState(false);
   const fabRef = useRef(null);
@@ -42,7 +43,7 @@ import { motion, AnimatePresence } from 'framer-motion';
   ];
 
   // ============ Copy to clipboard function ============ //
-  const copyToClipboard = (text, message) => {
+   const copyToClipboard = (text, message) => {
     navigator.clipboard.writeText(text);
     alert(message);
   };
@@ -98,4 +99,5 @@ import { motion, AnimatePresence } from 'framer-motion';
   );
  };
 
+ // =========== Apps Components end ============ //
  export default AppsComponents;

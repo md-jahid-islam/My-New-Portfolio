@@ -19,8 +19,8 @@
           }}
         />
       </h3>
+      
      {/*Typewriter part end */}
-
     {/*View Live & GitHub part start*/}
       <div className="flex justify-center gap-4 mt-4">
         <Link to={liveLink} target="_blank" className="px-4 py-2 bg-[#FF204E] text-white rounded-full hover:bg-[#008DDA] transition duration-300">
@@ -35,8 +35,9 @@
     </div>
   </div>
  );
- //============== Portfolio projects added part start =======//
- const Portfolio = () => {
+
+  //============== Portfolio projects added part start ===========//
+  const Portfolio = () => {
   const projects = [
     {
       image: "/images/code.png",
@@ -72,8 +73,7 @@
       category: "html, css, javascript, Tailwind.css, responsive mobile devices laptop devices desktop device",
       liveLink: "https://html-css-js-crash-course-doctor-care-project-main.vercel.app/#home",
       githubLink: "https://github.com/md-jahid-islam/html-css-js-crash-course-doctor-care-project-main.git",
-    },
-    
+    },    
      {
       image: "/images/filtter.png",
       title: "Filtter website",
@@ -115,8 +115,7 @@
       category: " aos react react-dom react-icons tailwindcss",
       liveLink: "https://car-rental-website-design.vercel.app/",
       githubLink: "https://github.com/md-jahid-islam/Car-Rental-website-design.git",
-    },
-   
+    },   
     {
       image: "/images/traveling.png",
       title: "Traveling",
@@ -138,20 +137,20 @@
       liveLink: "https://e-commerce-shop-five-zeta.vercel.app/",
       githubLink: "https://github.com/md-jahid-islam/E-commerce-shop.git",
     },
-  
+
   ];
+
  //======== Portfolio projects added part end =======//
- 
  //======== design part start ===========//
   return (
     <div className="container mx-auto px-4 py-10">
       <div className="header text-center">
-        <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-300 pt-10 underline ">Portfolio!</h2>
+      <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-300 pt-10 underline ">Portfolio!</h2>
       </div>
 
       <div className="flex flex-wrap justify-center gap-8 mt-10">
         {projects.map((project, index) => (
-          <ProjectCard key={index} {...project} />
+        <ProjectCard key={index} {...project} />
         ))}
       </div>
     </div>

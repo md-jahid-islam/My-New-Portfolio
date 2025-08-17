@@ -83,7 +83,7 @@ import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icon
           {errors.message && <p className="text-red-500">{errors.message}</p>}
 
           <button type="submit" className="w-36 h-12 bg-gradient-to-r text-gray-900 dark:text-gray-100 p-4 shadow hover:shadow-md font-bold rounded-lg flex justify-center items-center gap-2 hover:scale-105 transition">
-          {loading ? <ClipLoader size={20} color="#fff" /> : <FaPaperPlane />} Send
+          {loading ? <ClipLoader size={20} color="#fff" /> : <FaPaperPlane />} Send!
           </button>
         </form>
 
@@ -92,28 +92,28 @@ import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icon
           <div className="flex items-center gap-3 text-gray-900 dark:text-gray-100 p-4 rounded-lg shadow hover:shadow-md transition">
             <FaMapMarkerAlt className="text-xl text-gray-900 dark:text-gray-100" />
             <span className="text-gray-900 dark:text-gray-100">
-            <strong>Present Address:</strong> Dhaka, Uttara Azampur, Bangladesh
+            <strong>Present Address:</strong> Dhaka, Uttara Azampur, Bangladesh,
             </span>
           </div>
 
           <div className="flex items-center gap-3 text-gray-900 dark:text-gray-100 p-4 rounded-lg shadow hover:shadow-md transition">
             <FaMapMarkerAlt className="text-xl text-gray-900 dark:text-gray-100" />
             <span className="text-gray-900 dark:text-gray-100">
-            <strong>Permanent Address:</strong> Habiganj, Bangladesh
+            <strong>Permanent Address:</strong> Habiganj, Sylhet,
             </span>
           </div>
 
           <div className="flex items-center gap-3 text-gray-900 dark:text-gray-100 p-4 rounded-lg shadow hover:shadow-md transition">
             <FaPhoneAlt className="text-xl text-gray-900 dark:text-gray-100" />
             <span className="text-gray-900 dark:text-gray-100">
-            <strong>Phone:</strong> +880 1540 587085
+            <strong>Phone:</strong> +880 1540 587085,
             </span>
           </div>
 
           <div className="flex items-center gap-3 text-gray-900 dark:text-gray-100 p-4 rounded-lg shadow hover:shadow-md transition">
             <FaEnvelope className="text-xl text-gray-900 dark:text-gray-100" />
             <span className="text-gray-900 dark:text-gray-100">
-            <strong>Email:</strong> jahidulislamwebbd@gmail.com
+            <strong>Email:</strong> jahidulislamwebbd@gmail.com,
             </span>
           </div>
         </section>

@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
  useEffect(() => {
    AOS.init({ duration: 1000 });
  }, []);
-
+ 
  //========== useEffect AOS duration end =========//
  //========== design part start =========//
  return (

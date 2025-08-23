@@ -101,7 +101,7 @@ import { IoLogoLinkedin } from 'react-icons/io';
 
           {/* Resume Download */}
           <div className="mt-6">
-          <a href="/images/Jahid-Resume.pdf" download="Jahidul_Islam_Resume.pdf" className="w-[200px] h-[50px] bg-gradient-to-r text-gray-900 dark:text-gray-300 font-semibold rounded-lg shadow-md hover:scale-105 transition flex justify-center items-center hover:rotate-1 hover:shadow-lg"> Download Resume!</a>
+          <a href="/images/Zahidul Islam.pdf" download="Zahidul_Islam_Resume.pdf" className="w-[200px] h-[50px] bg-gradient-to-r text-gray-900 dark:text-gray-300 font-semibold rounded-lg shadow-md hover:scale-105 transition flex justify-center items-center hover:rotate-1 hover:shadow-lg"> Download Resume!</a>
           </div>   
         </div>
       </div>

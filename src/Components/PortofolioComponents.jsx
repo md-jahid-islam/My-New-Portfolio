@@ -147,7 +147,7 @@
       <div className="header text-center">
       <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-300 pt-10 underline ">Portfolio!</h2>
       </div>
-
+      
       <div className="flex flex-wrap justify-center gap-8 mt-10">
         {projects.map((project, index) => (
         <ProjectCard key={index} {...project} />
@@ -159,5 +159,4 @@
 
  //======== Portfolio end ===========//
  export default Portfolio;
- //  dfhgbashndbfjkhfkasdjf
- 
+  
